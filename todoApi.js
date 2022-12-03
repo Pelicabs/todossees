@@ -67,11 +67,4 @@ router.put('/date/:id', (req,res) => {
     res.json(database)
 })
 
-
-/*Features:
-* group items (done)
-* Trash can icon for deleting single Todo (done)
-* Get todos/access todos
-*/
-
 module.exports = router
