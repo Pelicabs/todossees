@@ -1,0 +1,43 @@
+/*
+semantic ui docs: 
+https://semantic-ui.com/elements/button.html
+ */
+
+body {
+  padding: 10px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+}
+
+h1 button {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+li {
+  /* display: flex; */
+  align-items: center;
+}
+
+li button {
+  margin-left: 10px !important;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px !important;
+}
+
+li input[type="date"] {
+  margin-left: 10px !important;
+}
+
+li.grouped {
+  margin-left: 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
